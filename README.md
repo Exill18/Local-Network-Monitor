@@ -55,7 +55,7 @@ The application will automatically:
 ### 🔍 Live Monitoring Tab
 - **Start/Stop Controls**: Toggle real-time monitoring with visual feedback
 - **Device Status Grid**: IP, name, status, latency, and last check time
-- **Status Indicators**: Color-coded 🟬 online/🔴 offline with emoji indicators  
+- **Status Indicators**: Color-coded 🟬 online/🔴 offline with icons indicators  
 - **Manual Refresh**: Instant status updates with progress indication
 - **Device Summary**: Real-time online/total device counts
 
