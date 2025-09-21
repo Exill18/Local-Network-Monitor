@@ -1,0 +1,353 @@
+# Network Monitor - Security & Privacy Protection .gitignore
+
+# =============================================================================
+# CRITICAL SECURITY FILES - Never commit these!
+# =============================================================================
+
+# Configuration files containing potentially sensitive network information
+gui_settings.json
+devices.json
+config.py
+
+# Network logs - may contain IP addresses and network topology information
+network_log.csv
+*.log
+logs/
+*.csv
+
+# Backup files that might contain sensitive data
+*.bak
+*.backup
+backup/
+backups/
+
+# Configuration exports that might contain network details
+*_config.json
+*_settings.json
+network_config.*
+device_config.*
+
+# =============================================================================
+# PYTHON ENVIRONMENT & DEPENDENCIES
+# =============================================================================
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# =============================================================================
+# IDE AND EDITOR FILES
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Notepad++ backup files
+*.bak
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+WARP.md
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# TEMPORARY AND CACHE FILES
+# =============================================================================
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Cache directories
+.cache/
+cache/
+
+# Browser cache (if running web components)
+.mozilla/
+.chrome/
+.safari/
+
+# =============================================================================
+# DEVELOPMENT AND TESTING
+# =============================================================================
+
+# Testing
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+htmlcov/
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# =============================================================================
+# DOCUMENTATION BUILD FILES
+# =============================================================================
+
+# Sphinx documentation
+docs/_build/
+
+# MkDocs documentation
+/site
+
+# =============================================================================
+# NETWORK MONITORING SPECIFIC
+# =============================================================================
+
+# Historical monitoring data
+*.csv
+monitoring_history/
+history/
+
+# Network scan results
+scan_results/
+discovery_results/
+network_scans/
+
+# Device discovery caches
+.device_cache
+device_cache.json
+
+# Performance logs
+performance.log
+monitoring.log
+error.log
+
+# Screenshots or recordings that might show network information
+screenshots/
+recordings/
+*.png
+*.jpg
+*.gif
+*.mp4
+
+# Network topology files
+topology/
+network_map.*
+
+# =============================================================================
+# SECURITY TOKENS AND CREDENTIALS
+# =============================================================================
+
+# Environment files with potential secrets
+.env
+.env.local
+.env.*.local
+
+# Security credentials
+credentials/
+certs/
+keys/
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# API keys and tokens
+api_keys.*
+tokens.*
+secrets.*
+
+# =============================================================================
+# CUSTOM CONFIGURATION FILES
+# =============================================================================
+
+# User-specific configurations that might contain sensitive network info
+user_config.*
+local_config.*
+personal_config.*
+
+# Custom device lists with potentially sensitive network information
+my_devices.*
+home_network.*
+office_network.*
+
+# Custom monitoring profiles
+profiles/
+monitoring_profiles/
+
+# =============================================================================
+# ARCHIVE AND COMPRESSED FILES
+# =============================================================================
+
+# Archives that might contain sensitive data
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+
+# =============================================================================
+# DATABASE FILES
+# =============================================================================
+
+# SQLite databases (if added in future)
+*.db
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# DEBUGGING AND PROFILING
+# =============================================================================
+
+# Debugging files
+debug.log
+*.dmp
+core.*
+
+# Profiling data
+*.prof
+*.profile
+
+# Memory dumps
+*.mdmp
+
+# =============================================================================
+# APPLICATION SPECIFIC
+# =============================================================================
+
+# GUI application state files
+window_state.json
+app_state.json
+ui_settings.json
+
+IMPROVEMENTS.md
+SECURITY.md
+USAGE.md
+
+# Theme customizations (if they contain user info)
+custom_themes/
+user_themes/
+
+# Export directories
+exports/
+exported_data/
+
+# =============================================================================
+# SAMPLE/EXAMPLE FILES WITH REAL DATA
+# =============================================================================
+
+# Example files that might accidentally contain real network data
+example_config_real.*
+sample_data_real.*
+test_data_real.*
+
+# =============================================================================
+
